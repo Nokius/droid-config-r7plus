@@ -4,9 +4,7 @@
 Description: Pattern with packages for r7plus HW Adaptation
 Name: jolla-hw-adaptation-r7plus
 Requires:
-- pattern:jolla-hw-adaptation-hybris
 - pattern:jolla-hw-adaptation-hybris-droid-vibrator
-- pattern:jolla-ui-configuration-r7plus
 
 - droid-hal-r7plus
 - droid-hal-r7plus-img-boot
@@ -18,6 +16,17 @@ Requires:
 - droid-config-r7plus-flashing
 - droid-config-r7plus-bluez4
 - droid-hal-version-r7plus
+
+# Hybris packages
+- libhybris-libEGL
+- libhybris-libGLESv2
+- libhybris-libwayland-egl
+
+# Sensors
+- hybris-libsensorfw-qt5
+
+# Needed for /dev/touchscreen symlink
+- qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
 # for audio recording to work:
@@ -64,15 +73,7 @@ Requires:
 # enable device lock and allow to select untrusted software
 - jolla-devicelock-plugin-encsfa
 
-# Settings app needs this since update15
-- jolla-settings-layout
-
-# For devices with working cellular modem:
-#- pattern:jolla-sailfish-cellular-apps
-#- telepathy-ring
-
 # For devices where test_gps eventually gets a fix:
 #- geoclue-provider-hybris
 
 Summary: Jolla HW Adaptation r7plus
-
