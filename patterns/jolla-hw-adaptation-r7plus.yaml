@@ -79,5 +79,8 @@ Requires:
 #- qt5-qtmultimedia-plugin-mediaservice-irisradio
 #- jolla-mediaplayer-radio
 
+# For Trosh
+- jolla-settings-system-flashlight
+
 Summary: Jolla HW Adaptation r7plus
 
