@@ -14,6 +14,7 @@ Requires:
 - droid-config-r7plus-flashing
 - droid-config-r7plus-bluez5
 - droid-hal-version-r7plus
+- droid-hal-r7plus-detritus
 
 # Hybris packages
 - libhybris-libEGL
