@@ -82,5 +82,8 @@ Requires:
 # For Trosh
 - jolla-settings-system-flashlight
 
+# enable SD-card
+- sd-utils
+
 Summary: Jolla HW Adaptation r7plus
 
